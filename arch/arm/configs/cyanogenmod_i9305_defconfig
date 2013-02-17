@@ -147,7 +147,11 @@ CONFIG_VM_EVENT_COUNTERS=y
 # CONFIG_SLUB_DEBUG is not set
 CONFIG_COMPAT_BRK=y
 # CONFIG_SLAB is not set
+<<<<<<< HEAD:arch/arm/configs/cyanogenmod_i9305_defconfig
 CONFIG_SLUB=y
+=======
+CONFIG_SLQB=y
+>>>>>>> faaeb7d... more cpu alignement to t0lte:arch/arm/configs/jdkernel_t0lte_defconfig
 # CONFIG_SLOB is not set
 # CONFIG_PROFILING is not set
 CONFIG_HAVE_OPROFILE=y
@@ -166,6 +170,7 @@ CONFIG_HAVE_HW_BREAKPOINT=y
 #
 # CONFIG_GCOV_KERNEL is not set
 CONFIG_HAVE_GENERIC_DMA_COHERENT=y
+CONFIG_SLABINFO=y
 CONFIG_RT_MUTEXES=y
 CONFIG_BASE_SMALL=0
 CONFIG_MODULES=y
@@ -664,6 +669,7 @@ CONFIG_CMA_BEST_FIT=y
 # CONFIG_DEBUG_VMALLOC is not set
 CONFIG_FORCE_MAX_ZONEORDER=11
 CONFIG_ALIGNMENT_TRAP=y
+CONFIG_ALLOW_CPU_ALIGNMENT=y
 # CONFIG_UACCESS_WITH_MEMCPY is not set
 # CONFIG_SECCOMP is not set
 # CONFIG_CC_STACKPROTECTOR is not set
@@ -3106,7 +3112,15 @@ CONFIG_SCHED_DEBUG=y
 CONFIG_SCHEDSTATS=y
 CONFIG_TIMER_STATS=y
 # CONFIG_DEBUG_OBJECTS is not set
+<<<<<<< HEAD:arch/arm/configs/cyanogenmod_i9305_defconfig
 # CONFIG_SLUB_STATS is not set
+=======
+CONFIG_SLQB_DEBUG=y
+# CONFIG_SLQB_DEBUG_ON is not set
+# CONFIG_SLQB_SYSFS is not set
+CONFIG_SLQB_DEBUG is not set
+# CONFIG_SLQB_SYSFS is not set
+>>>>>>> faaeb7d... more cpu alignement to t0lte:arch/arm/configs/jdkernel_t0lte_defconfig
 # CONFIG_DEBUG_KMEMLEAK is not set
 # CONFIG_DEBUG_PREEMPT is not set
 # CONFIG_DEBUG_RT_MUTEXES is not set
