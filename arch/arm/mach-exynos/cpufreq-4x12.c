@@ -26,6 +26,7 @@
 #include <plat/cpu.h>
 
 #define CPUFREQ_LEVEL_END	(L20 + 1)
+
 #undef PRINT_DIV_VAL
 
 #undef ENABLE_CLKOUT
@@ -430,7 +431,7 @@ static const unsigned int asv_voltage_step_12_5[CPUFREQ_LEVEL_END][12] = {
 	{  925000,  912500,  900000,  900000,  900000,  900000,	 900000,  900000,  887500,  875000,  875000,  862500 },
 };
 
-/* 20120725 DVFS table for pega prime */
+/* 20120927 DVFS table for pega prime */
 static const unsigned int asv_voltage_step_12_5_rev2[CPUFREQ_LEVEL_END][13] = {
 	/*   ASV0,    ASV1,    ASV2,    ASV3,	 ASV4,	  ASV5,	   ASV6,    ASV7,    ASV8,    ASV9,   ASV10,   ASV11    ASV12 */
 	{ 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000, 1500000 },	/* L0 */
